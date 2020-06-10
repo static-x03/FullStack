@@ -1,0 +1,19 @@
+{
+  "name": "proyects",
+  "version": "1.0.0",
+  "description": "primer proyecto Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/static-x03/FullStack.git"
+  },
+  "author": "Bryan Vanegas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/static-x03/FullStack/issues"
+  },
+  "homepage": "https://github.com/static-x03/FullStack#readme"
+}
