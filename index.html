@@ -5,15 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
     <title>Guia De Hoteles</title>
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Hoteles</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent" aria-controls="navbarNavDroupdown" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="navbar-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="navbar-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+            <li class="navbar-item"><a class="nav-link" href="#">Precios</a></li>
+            <li class="navbar-item"><a class="nav-link" href="#">Terminos y Condiciones</a></li>
+            <li class="navbar-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+    </nav>
+
     <div class="jumbotron">
         <h1>Hoteles</h1>
     </div>
 
     <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
         <div class="row">
             <div class="col-sm-4">
                 <p>
@@ -95,9 +118,9 @@
             <div class="col-sm-4">
                 <address>
                     <h3>Oficina Central</h3>
-                    <p>Bogota Transv 112C #64D-15</p> 
-                    <p>+3178399421</p>
-                    <p>contacto@guiahoteles.com</p> 
+                    <p><span class="oi oi-home footer-address-icon"></span>Bogota Transv 112C #64D-15</p> 
+                    <p><span class="oi oi-phone footer-address-icon"></span>+3178399421</p>
+                    <p><span class="oi oi-inbox footer-address-icon"></span>contacto@guiahoteles.com</p> 
                 </address>
             </div>
 
