@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- build:css dist/index.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-
+    <!-- endbuild-->
     <title>Guia De Hoteles</title>
 </head>
 <body>
@@ -172,7 +174,7 @@
                     <p class="card-text">Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa</p>
                 </div>
                 <div>
-                    <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Reservar</button>
+                    <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="Contactobtn">Reservar</button>
                 </div>
             </div>
 
@@ -211,23 +213,17 @@
 
 
     
-
-
+    <!-- Optional Javascript-->
+    <!--jQuery first, then popper.js, then Bootstrap JS-->
+    <!--build:js dist/index.js-->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(function (){
-            $("[data-toggle='tooltip']").tooltip();
-            $("[data-toggle='popover']").popover();
-            $('.carousel').carosuel({
-                interval: 2000
-            });
-        });
-    </script>
+    <script src="js/index.js"></script>></script>
+    <!-- endbuild -->
 
 
-    /*Modals */
+    
 
     <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
